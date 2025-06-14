@@ -1,0 +1,1018 @@
+12:05:33:532  INFO 11812 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+12:05:34:494  INFO 11812 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=294f897e-d813-36aa-9b6c-5549f6e7dc4d
+12:05:34:569  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:570  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:571  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:610  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:612  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:613  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:614  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x000001ffd3639d50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:615  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:617  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:619  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:34:621  INFO 11812 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+12:05:34:675  INFO 11812 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+12:05:34:680  INFO 11812 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+12:05:34:746  INFO 11812 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+12:05:34:823  INFO 11812 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+12:05:34:969  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 9cfd69d6-5cef-4b57-beac-e1678424f151
+12:05:34:969  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] RpcClient init label, labels = {module=naming, source=sdk}
+12:05:34:971  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+12:05:34:972  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+12:05:34:972  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+12:05:34:973  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] Try to connect to server on start up, server: {serverIp = '192.168.187.128', server main port = 8848}
+12:05:35:116  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] Success to connect to server [192.168.187.128:8848] on start up, connectionId = 1747800334975_192.168.187.1_52849
+12:05:35:116  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+12:05:35:116  INFO 11812 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] Notify connected event to listeners.
+12:05:35:116  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda/0x000001ffd3508d48
+12:05:35:159  INFO 11812 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.187.128:8099
+12:05:35:167  INFO 11812 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.187.128:8099,msg:< RegisterTMRequest{applicationId='cart-service', transactionServiceGroup='hmall'} >
+12:05:35:259  WARN 11812 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+12:05:35:281  INFO 11812 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x629cb43f, L:/192.168.187.1:52851 - R:/192.168.187.128:8099]
+12:05:35:287  INFO 11812 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 49 ms, version:1.5.2,role:TMROLE,channel:[id: 0x629cb43f, L:/192.168.187.1:52851 - R:/192.168.187.128:8099]
+12:05:35:288  INFO 11812 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[cart-service] txServiceGroup[hmall]
+12:05:35:304  INFO 11812 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+12:05:35:305  INFO 11812 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+12:05:35:314  INFO 11812 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+12:05:35:314  INFO 11812 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[cart-service] txServiceGroup[hmall]
+12:05:35:314  INFO 11812 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+12:05:35:315  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:35:610  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:35:612  INFO 11812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:05:35:719  INFO 11812 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] Receive server push request, request = NotifySubscriberRequest, requestId = 6
+12:05:35:721  INFO 11812 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [9cfd69d6-5cef-4b57-beac-e1678424f151] Ack server push request, request = NotifySubscriberRequest, requestId = 6
+12:05:35:922  INFO 11812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+12:05:35:934  INFO 11812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:05:35:934  INFO 11812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:05:36:143  INFO 11812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:05:36:144  INFO 11812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2587 ms
+12:05:36:444  INFO 11812 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+12:05:36:800  INFO 11812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+12:05:37:059  INFO 11812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+12:05:37:113  INFO 11812 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.187.128:8099
+12:05:37:113  INFO 11812 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.187.128:3306/hm-cart
+12:05:37:114  INFO 11812 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.187.128:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.187.128:3306/hm-cart', applicationId='cart-service', transactionServiceGroup='hmall'} >
+12:05:37:122  INFO 11812 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xd0608d62, L:/192.168.187.1:52859 - R:/192.168.187.128:8099]
+12:05:37:122  INFO 11812 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 6 ms, version:1.5.2,role:RMROLE,channel:[id: 0xd0608d62, L:/192.168.187.1:52859 - R:/192.168.187.128:8099]
+12:05:37:545  INFO 11812 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+12:05:37:943  INFO 11812 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+12:05:38:615  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 20a80aa0-b6cc-45f3-933a-a92a4b34da27
+12:05:38:616  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] RpcClient init label, labels = {module=naming, source=sdk}
+12:05:38:616  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+12:05:38:616  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+12:05:38:616  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+12:05:38:616  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Try to connect to server on start up, server: {serverIp = '192.168.187.128', server main port = 8848}
+12:05:38:738  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Success to connect to server [192.168.187.128:8848] on start up, connectionId = 1747800338611_192.168.187.1_52870
+12:05:38:738  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+12:05:38:738  INFO 11812 --- [main] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda/0x000001ffd3508d48
+12:05:38:738  INFO 11812 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Notify connected event to listeners.
+12:05:38:759  INFO 11812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+12:05:38:770  INFO 11812 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.236.1:8082 register finished
+12:05:38:776  INFO 11812 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+12:05:38:778  INFO 11812 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+12:05:38:801  INFO 11812 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+12:05:38:875  INFO 11812 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.187.128:5672]
+12:05:38:944  INFO 11812 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#64a74723:0/SimpleConnection@62a193e0 [delegate=amqp://hmall@192.168.187.128:5672//hmall, localPort= 52871]
+12:05:39:014  INFO 11812 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 7.382 seconds (JVM running for 8.129)
+12:05:39:019  INFO 11812 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service, group=DEFAULT_GROUP
+12:05:39:020  INFO 11812 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service.yaml, group=DEFAULT_GROUP
+12:05:39:020  INFO 11812 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service-local.yaml, group=DEFAULT_GROUP
+12:05:39:306  INFO 11812 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 7
+12:05:39:308  INFO 11812 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 7
+12:09:51:151  INFO 11812 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:09:51:152  INFO 11812 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+12:09:51:158  INFO 11812 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+12:09:51:703 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:09:51:751 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:09:51:799 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+12:12:20:768 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+12:12:20:768 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 317580(Long)
+12:12:20:790 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:12:20:790 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+12:12:20:790 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+12:12:20:799 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:12:20:943 DEBUG 11812 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+12:12:20:943 DEBUG 11812 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 317580(Long), RIMOWA 26寸托运箱拉杆箱 SALSA AIR系列果绿色 820.70.36.4(String), 28600(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t6934/364/1195375010/84676/e9f2c55f/597ece38N0ddcbc77.jpg!q70.jpg.webp(String)
+12:12:20:958 DEBUG 11812 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+12:12:21:063 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:12:21:064 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:12:21:074 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+12:12:21:083 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=317580 HTTP/1.1
+12:12:21:083 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:12:21:083 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:12:21:807  INFO 11812 --- [nacos-grpc-client-executor-90] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 15
+12:12:21:807  INFO 11812 --- [nacos-grpc-client-executor-90] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 15
+12:12:22:430 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (1357ms)
+12:12:22:445 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:12:22:445 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:12:22:445 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:12:22 GMT
+12:12:22:445 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:12:22:445 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:12:22:445 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:12:22:445 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"317580","name":"RIMOWA 26寸托运箱拉杆箱 SALSA AIR系列果绿色 820.70.36.4","price":28600,"stock":9999,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t6934/364/1195375010/84676/e9f2c55f/597ece38N0ddcbc77.jpg!q70.jpg.webp","category":"拉杆箱","brand":"RIMOWA","spec":"{\"颜色\": \"蓝色\", \"尺码\": \"26寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+12:12:22:445 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (396-byte body)
+12:16:24:782  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[317580]
+12:16:24:787 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+12:16:24:788 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 317580(Long)
+12:16:24:792 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+12:17:52:648  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[317580]
+12:17:52:648 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+12:17:52:648 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 317580(Long)
+12:17:52:648 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+12:20:13:849  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[317580]
+12:20:13:851 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+12:20:13:852 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 317580(Long)
+12:20:13:854 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+12:23:37:604 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:23:37:609 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:23:37:610 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+12:23:44:577 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+12:23:44:579 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 2654598(Long)
+12:23:44:579 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:23:44:579 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+12:23:44:579 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+12:23:44:579 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:23:44:596 DEBUG 11812 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+12:23:44:596 DEBUG 11812 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 2654598(Long), 昱科(HGST) 6TB 7200转128M SATA6Gb/s 企业级硬盘(HUS726060ALE610)(String), 5200(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t2863/333/163661003/260833/7a6f5394/57063b9bNb7cb89bd.jpg!q70.jpg.webp(String)
+12:23:44:611 DEBUG 11812 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+12:23:44:701 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:23:44:703 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:23:44:709 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+12:23:44:714 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=2654598 HTTP/1.1
+12:23:44:714 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:23:44:714 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:23:44:742 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (28ms)
+12:23:44:742 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:23:44:743 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:23:44:743 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:23:44 GMT
+12:23:44:743 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:23:44:743 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:23:44:743 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:23:44:744 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"2654598","name":"昱科(HGST) 6TB 7200转128M SATA6Gb/s 企业级硬盘(HUS726060ALE610)","price":5200,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t2863/333/163661003/260833/7a6f5394/57063b9bNb7cb89bd.jpg!q70.jpg.webp","category":"硬盘","brand":"HGST","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+12:23:44:744 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (351-byte body)
+12:24:01:301  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[2654598]
+12:24:01:304 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+12:24:01:305 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 2654598(Long)
+12:24:01:313 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+12:26:49:170 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:26:49:171 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:26:49:172 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+12:26:56:546 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+12:26:56:546 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 1039164(Long)
+12:26:56:546 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:26:56:546 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+12:26:56:546 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+12:26:56:562 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:26:56:562 DEBUG 11812 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+12:26:56:562 DEBUG 11812 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 1039164(Long), 七匹狼（SEPTWOLVES）女士钱包 本命年时尚简约系列票夹短款两折钱包 8A1310185-37玫红(String), 16600(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t3145/192/4695410274/287753/a690e81d/584f89b3Nda56e643.jpg!q70.jpg.webp(String)
+12:26:56:575 DEBUG 11812 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+12:26:56:702 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:26:56:707 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:26:56:711 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+12:26:56:712 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=1039164 HTTP/1.1
+12:26:56:714 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:26:56:714 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:26:56:730 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (16ms)
+12:26:56:730 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:26:56:730 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:26:56:731 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:26:56 GMT
+12:26:56:731 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:26:56:731 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:26:56:732 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:26:56:732 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"1039164","name":"七匹狼（SEPTWOLVES）女士钱包 本命年时尚简约系列票夹短款两折钱包 8A1310185-37玫红","price":16600,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t3145/192/4695410274/287753/a690e81d/584f89b3Nda56e643.jpg!q70.jpg.webp","category":"真皮包","brand":"七匹狼","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+12:26:56:732 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (398-byte body)
+12:26:58:420 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+12:26:58:420 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 106(Long)
+12:26:58:429 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+12:26:58:455 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:26:58:456 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:26:58:461 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+12:26:58:464 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=1039164 HTTP/1.1
+12:26:58:464 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:26:58:464 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:26:58:490 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (24ms)
+12:26:58:490 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:26:58:490 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:26:58:490 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:26:58 GMT
+12:26:58:490 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:26:58:490 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:26:58:490 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:26:58:491 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"1039164","name":"七匹狼（SEPTWOLVES）女士钱包 本命年时尚简约系列票夹短款两折钱包 8A1310185-37玫红","price":16600,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t3145/192/4695410274/287753/a690e81d/584f89b3Nda56e643.jpg!q70.jpg.webp","category":"真皮包","brand":"七匹狼","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+12:26:58:491 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (398-byte body)
+12:39:49:811 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:39:49:812 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:39:49:816 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+12:39:49:818 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=1039164 HTTP/1.1
+12:39:49:818 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:39:49:818 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:39:49:838 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (19ms)
+12:39:49:838 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:39:49:838 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:39:49:838 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:39:49 GMT
+12:39:49:838 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:39:49:838 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:39:49:838 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:39:49:839 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"1039164","name":"七匹狼（SEPTWOLVES）女士钱包 本命年时尚简约系列票夹短款两折钱包 8A1310185-37玫红","price":16600,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t3145/192/4695410274/287753/a690e81d/584f89b3Nda56e643.jpg!q70.jpg.webp","category":"真皮包","brand":"七匹狼","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+12:39:49:839 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (398-byte body)
+12:40:21:721 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+12:40:21:721 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+12:40:21:723 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:40:21:724 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+12:40:21:724 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+12:40:21:725 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:40:21:726 DEBUG 11812 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+12:40:21:726 DEBUG 11812 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+12:40:21:731 DEBUG 11812 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+12:40:21:783 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:40:21:784 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:40:21:787 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+12:40:21:789 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=1039164&ids=100002672307 HTTP/1.1
+12:40:21:789 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:40:21:790 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:40:21:803 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (13ms)
+12:40:21:804 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:40:21:804 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:40:21:804 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:40:21 GMT
+12:40:21:804 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:40:21:804 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:40:21:804 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:40:21:805 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"1039164","name":"七匹狼（SEPTWOLVES）女士钱包 本命年时尚简约系列票夹短款两折钱包 8A1310185-37玫红","price":16600,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t3145/192/4695410274/287753/a690e81d/584f89b3Nda56e643.jpg!q70.jpg.webp","category":"真皮包","brand":"七匹狼","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100002672307","name":"赛尔号66666","price":100,"stock":91,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+12:40:21:805 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (637-byte body)
+12:40:23:608 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+12:40:23:608 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 1(Integer), 106(Long)
+12:40:23:620 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+12:40:23:629 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:40:23:629 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:40:23:644 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+12:40:23:644 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=1039164&ids=100002672307 HTTP/1.1
+12:40:23:644 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:40:23:644 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:40:23:660 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (17ms)
+12:40:23:660 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:40:23:660 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:40:23:660 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:40:23 GMT
+12:40:23:660 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:40:23:660 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:40:23:660 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:40:23:660 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"1039164","name":"七匹狼（SEPTWOLVES）女士钱包 本命年时尚简约系列票夹短款两折钱包 8A1310185-37玫红","price":16600,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t3145/192/4695410274/287753/a690e81d/584f89b3Nda56e643.jpg!q70.jpg.webp","category":"真皮包","brand":"七匹狼","spec":"{}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100002672307","name":"赛尔号66666","price":100,"stock":91,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+12:40:23:660 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (637-byte body)
+12:40:25:544 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.deleteById    : ==>  Preparing: DELETE FROM cart WHERE id=?
+12:40:25:544 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.deleteById    : ==> Parameters: 106(Long)
+12:40:25:552 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.deleteById    : <==    Updates: 1
+12:40:25:568 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:40:25:568 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:40:25:570 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+12:40:25:573 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+12:40:25:573 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:40:25:573 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:40:25:586 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (12ms)
+12:40:25:586 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:40:25:586 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:40:25:586 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:40:25 GMT
+12:40:25:586 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:40:25:586 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:40:25:586 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:40:25:586 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":91,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+12:40:25:586 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+12:40:28:536 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+12:40:28:536 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 107(Long)
+12:40:28:536 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+12:40:28:551 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:40:28:551 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:40:28:567 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+12:40:28:567 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+12:40:28:567 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:40:28:567 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:40:28:573 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (11ms)
+12:40:28:583 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:40:28:583 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:40:28:583 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:40:28 GMT
+12:40:28:583 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:40:28:583 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:40:28:583 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:40:28:584 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":91,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+12:40:28:584 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+12:40:35:969  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+12:40:35:972 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+12:40:35:972 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+12:40:35:977 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+12:41:37:826 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:41:37:827 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:41:37:828 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+12:49:43:876 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+12:49:43:876 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 561178(Long)
+12:49:43:876 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:49:43:876 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+12:49:43:876 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+12:49:43:891 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:49:43:895 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+12:49:43:895 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 561178(Long), RIMOWA 30寸托运箱拉杆箱 SALSA AIR系列果绿色 820.70.36.4(String), 13000(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t6934/364/1195375010/84676/e9f2c55f/597ece38N0ddcbc77.jpg!q70.jpg.webp(String)
+12:49:43:895 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+12:49:43:989 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:49:43:990 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:49:43:995 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+12:49:43:999 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=561178 HTTP/1.1
+12:49:43:999 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:49:43:999 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:49:44:020 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (21ms)
+12:49:44:020 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:49:44:020 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:49:44:020 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:49:44 GMT
+12:49:44:020 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:49:44:020 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:49:44:020 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:49:44:024 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"561178","name":"RIMOWA 30寸托运箱拉杆箱 SALSA AIR系列果绿色 820.70.36.4","price":13000,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t6934/364/1195375010/84676/e9f2c55f/597ece38N0ddcbc77.jpg!q70.jpg.webp","category":"拉杆箱","brand":"RIMOWA","spec":"{\"颜色\": \"红色\", \"尺码\": \"30寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+12:49:44:024 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (397-byte body)
+12:49:47:796 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:49:47:796 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:49:47:803 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+12:49:47:806 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=561178 HTTP/1.1
+12:49:47:806 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:49:47:806 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:49:47:818 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (11ms)
+12:49:47:818 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:49:47:818 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:49:47:818 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:49:47 GMT
+12:49:47:818 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:49:47:818 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:49:47:819 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:49:47:819 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"561178","name":"RIMOWA 30寸托运箱拉杆箱 SALSA AIR系列果绿色 820.70.36.4","price":13000,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t6934/364/1195375010/84676/e9f2c55f/597ece38N0ddcbc77.jpg!q70.jpg.webp","category":"拉杆箱","brand":"RIMOWA","spec":"{\"颜色\": \"红色\", \"尺码\": \"30寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+12:49:47:819 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (397-byte body)
+12:49:56:411 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+12:49:56:411 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+12:49:56:411 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:49:56:411 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+12:49:56:411 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+12:49:56:411 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+12:49:56:411 DEBUG 11812 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+12:49:56:411 DEBUG 11812 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+12:49:56:433 DEBUG 11812 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+12:49:56:516 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:49:56:516 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:49:56:516 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+12:49:56:531 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=561178&ids=100002672307 HTTP/1.1
+12:49:56:531 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:49:56:531 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:49:56:554 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (18ms)
+12:49:56:554 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:49:56:554 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:49:56:555 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:49:56 GMT
+12:49:56:555 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:49:56:555 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:49:56:555 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:49:56:556 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"561178","name":"RIMOWA 30寸托运箱拉杆箱 SALSA AIR系列果绿色 820.70.36.4","price":13000,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t6934/364/1195375010/84676/e9f2c55f/597ece38N0ddcbc77.jpg!q70.jpg.webp","category":"拉杆箱","brand":"RIMOWA","spec":"{\"颜色\": \"红色\", \"尺码\": \"30寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100002672307","name":"赛尔号66666","price":100,"stock":89,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+12:49:56:556 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (636-byte body)
+12:49:59:205 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+12:49:59:205 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 109(Long)
+12:49:59:205 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+12:49:59:217 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+12:49:59:217 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+12:49:59:217 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+12:49:59:231 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=561178&ids=100002672307 HTTP/1.1
+12:49:59:231 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+12:49:59:231 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+12:49:59:243 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (11ms)
+12:49:59:244 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+12:49:59:244 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+12:49:59:244 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 04:49:59 GMT
+12:49:59:244 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+12:49:59:244 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+12:49:59:244 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+12:49:59:244 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"561178","name":"RIMOWA 30寸托运箱拉杆箱 SALSA AIR系列果绿色 820.70.36.4","price":13000,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t6934/364/1195375010/84676/e9f2c55f/597ece38N0ddcbc77.jpg!q70.jpg.webp","category":"拉杆箱","brand":"RIMOWA","spec":"{\"颜色\": \"红色\", \"尺码\": \"30寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100002672307","name":"赛尔号66666","price":100,"stock":89,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+12:49:59:244 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (636-byte body)
+12:50:04:267  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[561178, 100002672307]
+12:50:04:271 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?,?))
+12:50:04:271 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 561178(Long), 100002672307(Long)
+12:50:04:277 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 2
+13:33:47:139 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+13:33:47:142 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+13:33:47:146 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+13:33:54:194 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+13:33:54:194 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+13:33:54:194 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+13:33:54:194 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+13:33:54:194 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+13:33:54:194 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+13:33:54:194 DEBUG 11812 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+13:33:54:194 DEBUG 11812 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+13:33:54:194 DEBUG 11812 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+13:33:54:273 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+13:33:54:273 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+13:33:54:276 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+13:33:54:278 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+13:33:54:278 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+13:33:54:279 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+13:33:54:343 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (65ms)
+13:33:54:344 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+13:33:54:344 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+13:33:54:344 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 05:33:54 GMT
+13:33:54:344 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+13:33:54:344 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+13:33:54:344 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+13:33:54:344 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":87,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+13:33:54:345 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+13:33:55:783 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+13:33:55:783 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 110(Long)
+13:33:55:783 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (9ms)
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 05:33:55 GMT
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":87,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+13:33:55:810 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+13:35:21:333  INFO 11812 --- [nacos-grpc-client-executor-1098] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 75
+13:35:21:334  INFO 11812 --- [nacos-grpc-client-executor-1098] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 75
+13:35:31:148  INFO 11812 --- [nacos-grpc-client-executor-1101] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 79
+13:35:31:151  INFO 11812 --- [nacos-grpc-client-executor-1101] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 79
+13:44:54:005  INFO 11812 --- [nacos-grpc-client-executor-1213] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 80
+13:44:54:008  INFO 11812 --- [nacos-grpc-client-executor-1213] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 80
+13:45:06:523  INFO 11812 --- [nacos-grpc-client-executor-1216] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 83
+13:45:06:525  INFO 11812 --- [nacos-grpc-client-executor-1216] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 83
+13:45:46:345  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+13:45:46:345 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+13:45:46:345 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+13:45:46:361 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+13:47:42:194  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+13:47:42:197 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+13:47:42:198 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+13:47:42:201 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+13:54:01:807  INFO 11812 --- [nacos-grpc-client-executor-1329] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 90
+13:54:01:810  INFO 11812 --- [nacos-grpc-client-executor-1329] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 90
+13:54:13:828  INFO 11812 --- [nacos-grpc-client-executor-1331] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 94
+13:54:13:829  INFO 11812 --- [nacos-grpc-client-executor-1331] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 94
+13:54:40:847 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+13:54:40:848 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+13:54:40:851 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+13:54:50:504 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+13:54:50:504 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+13:54:50:520 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+13:54:50:520 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+13:54:50:520 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+13:54:50:520 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+13:54:50:520 DEBUG 11812 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+13:54:50:520 DEBUG 11812 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+13:54:50:520 DEBUG 11812 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+13:54:50:608 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+13:54:50:608 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+13:54:50:612 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+13:54:50:615 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+13:54:50:615 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+13:54:50:615 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+13:54:51:470 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (855ms)
+13:54:51:472 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+13:54:51:472 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+13:54:51:472 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 05:54:51 GMT
+13:54:51:472 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+13:54:51:472 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+13:54:51:472 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+13:54:51:473 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":83,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+13:54:51:474 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+13:54:52:797 DEBUG 11812 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+13:54:52:797 DEBUG 11812 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 111(Long)
+13:54:52:797 DEBUG 11812 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+13:54:52:820 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+13:54:52:820 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+13:54:52:824 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+13:54:52:825 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+13:54:52:825 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+13:54:52:825 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+13:54:52:831 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (15ms)
+13:54:52:831 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+13:54:52:831 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+13:54:52:831 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 05:54:52 GMT
+13:54:52:831 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+13:54:52:831 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+13:54:52:831 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+13:54:52:831 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":83,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+13:54:52:831 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+13:54:57:182  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+13:54:57:182 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+13:54:57:182 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+13:54:57:182 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+13:55:00:115  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+13:55:00:119 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+13:55:00:119 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+13:55:00:123 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+13:58:48:771  INFO 11812 --- [nacos-grpc-client-executor-1390] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 101
+13:58:48:774  INFO 11812 --- [nacos-grpc-client-executor-1390] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 101
+13:59:00:691  INFO 11812 --- [nacos-grpc-client-executor-1392] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 105
+13:59:00:694  INFO 11812 --- [nacos-grpc-client-executor-1392] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 105
+13:59:22:061 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+13:59:22:061 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+13:59:22:062 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+13:59:31:860 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+13:59:31:860 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+13:59:31:870 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+13:59:31:870 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+13:59:31:870 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+13:59:31:870 DEBUG 11812 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+13:59:31:870 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+13:59:31:870 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+13:59:31:880 DEBUG 11812 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+13:59:31:974 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+13:59:31:974 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+13:59:31:977 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+13:59:31:978 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+13:59:31:979 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+13:59:31:979 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+13:59:32:848 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (874ms)
+13:59:32:848 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+13:59:32:848 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+13:59:32:848 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 05:59:32 GMT
+13:59:32:848 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+13:59:32:848 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+13:59:32:848 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+13:59:32:848 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":79,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+13:59:32:848 DEBUG 11812 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+13:59:33:922 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+13:59:33:922 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 112(Long)
+13:59:33:931 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+13:59:33:951 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+13:59:33:952 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+13:59:33:957 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+13:59:33:961 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+13:59:33:961 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+13:59:33:961 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+13:59:33:982 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (20ms)
+13:59:33:982 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+13:59:33:982 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+13:59:33:982 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 05:59:33 GMT
+13:59:33:982 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+13:59:33:982 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+13:59:33:982 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+13:59:33:983 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":79,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+13:59:33:983 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+13:59:38:111  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+13:59:38:128 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+13:59:38:128 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+13:59:38:128 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+14:07:44:005  INFO 11812 --- [nacos-grpc-client-executor-1503] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 112
+14:07:44:006  INFO 11812 --- [nacos-grpc-client-executor-1503] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 112
+14:07:52:719  INFO 11812 --- [nacos-grpc-client-executor-1505] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 118
+14:07:52:720  INFO 11812 --- [nacos-grpc-client-executor-1505] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 118
+14:08:11:406 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:08:11:409 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:08:11:410 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+14:08:17:174 DEBUG 11812 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+14:08:17:174 DEBUG 11812 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+14:08:17:174 DEBUG 11812 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+14:08:17:174 DEBUG 11812 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+14:08:17:174 DEBUG 11812 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+14:08:17:174 DEBUG 11812 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+14:08:17:188 DEBUG 11812 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+14:08:17:188 DEBUG 11812 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+14:08:17:194 DEBUG 11812 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+14:08:17:265 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:08:17:266 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:08:17:268 DEBUG 11812 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:08:17:268 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+14:08:17:269 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+14:08:17:269 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+14:08:18:055 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (785ms)
+14:08:18:055 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+14:08:18:055 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+14:08:18:055 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 06:08:18 GMT
+14:08:18:055 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+14:08:18:055 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+14:08:18:055 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+14:08:18:055 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":77,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+14:08:18:055 DEBUG 11812 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+14:08:19:111 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+14:08:19:111 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 113(Long)
+14:08:19:118 DEBUG 11812 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+14:08:19:138 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:08:19:138 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:08:19:138 DEBUG 11812 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:08:19:138 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+14:08:19:138 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+14:08:19:138 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+14:08:19:163 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (13ms)
+14:08:19:163 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+14:08:19:163 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+14:08:19:163 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 06:08:19 GMT
+14:08:19:163 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+14:08:19:163 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+14:08:19:163 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+14:08:19:164 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":77,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+14:08:19:164 DEBUG 11812 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+14:08:34:391  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+14:08:34:392 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+14:08:34:393 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+14:08:34:395 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+14:13:46:134  INFO 11812 --- [nacos-grpc-client-executor-1580] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 122
+14:13:46:135  INFO 11812 --- [nacos-grpc-client-executor-1580] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 122
+14:13:59:657  INFO 11812 --- [nacos-grpc-client-executor-1583] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 128
+14:13:59:661  INFO 11812 --- [nacos-grpc-client-executor-1583] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 128
+14:14:13:449 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:14:13:449 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:14:13:451 DEBUG 11812 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+14:14:19:121 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+14:14:19:121 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+14:14:19:121 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+14:14:19:121 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+14:14:19:121 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+14:14:19:121 DEBUG 11812 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+14:14:19:121 DEBUG 11812 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+14:14:19:121 DEBUG 11812 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+14:14:19:137 DEBUG 11812 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+14:14:19:225 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:14:19:227 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:14:19:230 DEBUG 11812 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:14:19:232 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+14:14:19:232 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+14:14:19:232 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+14:14:19:942 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (716ms)
+14:14:19:942 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+14:14:19:942 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+14:14:19:942 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 06:14:19 GMT
+14:14:19:942 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+14:14:19:942 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+14:14:19:942 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+14:14:19:942 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":75,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+14:14:19:942 DEBUG 11812 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+14:14:21:137 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+14:14:21:137 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 114(Long)
+14:14:21:149 DEBUG 11812 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+14:14:21:187 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:14:21:189 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:14:21:192 DEBUG 11812 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:14:21:192 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+14:14:21:192 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+14:14:21:192 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+14:14:21:213 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (23ms)
+14:14:21:213 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+14:14:21:213 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+14:14:21:213 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 06:14:21 GMT
+14:14:21:213 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+14:14:21:213 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+14:14:21:213 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+14:14:21:222 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":75,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+14:14:21:222 DEBUG 11812 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+14:14:25:496  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+14:14:25:496 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+14:14:25:496 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+14:14:25:514 DEBUG 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+14:16:39:758  WARN 11812 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:16:39:759  WARN 11812 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:16:39:760  WARN 11812 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:16:39:776  WARN 11812 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:16:39:858  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+14:16:40:331  INFO 11812 --- [nacos-grpc-client-executor-1617] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Receive server push request, request = NotifySubscriberRequest, requestId = 132
+14:16:40:332  INFO 11812 --- [nacos-grpc-client-executor-1617] com.alibaba.nacos.common.remote.client   : [20a80aa0-b6cc-45f3-933a-a92a4b34da27] Ack server push request, request = NotifySubscriberRequest, requestId = 132
+14:16:40:749  INFO 11812 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+14:16:40:880  INFO 11812 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+14:16:40:883  INFO 11812 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+14:16:41:195  INFO 11812 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:16:41:195  INFO 11812 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@79c9f619[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:16:41:196  INFO 11812 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1747800338611_192.168.187.1_52870
+14:16:41:200  INFO 11812 --- [nacos-grpc-client-executor-1621] c.a.n.c.remote.client.grpc.GrpcClient    : [1747800338611_192.168.187.1_52870]Ignore complete event,isRunning:false,isAbandon=false
+14:16:41:214  INFO 11812 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@99e03a9[Running, pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 1622]
+14:16:41:223  INFO 11812 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+14:16:41:237  INFO 11812 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+14:16:41:241  INFO 11812 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+14:16:41:256  INFO 11812 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xd0608d62, L:/192.168.187.1:52859 ! R:/192.168.187.128:8099]
+14:16:41:256  INFO 11812 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xd0608d62, L:/192.168.187.1:52859 ! R:/192.168.187.128:8099]
+14:16:41:256  INFO 11812 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xd0608d62, L:/192.168.187.1:52859 ! R:/192.168.187.128:8099]
+14:16:41:256  INFO 11812 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xd0608d62, L:/192.168.187.1:52859 ! R:/192.168.187.128:8099]
+14:16:41:258  INFO 11812 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xd0608d62, L:/192.168.187.1:52859 ! R:/192.168.187.128:8099]) will closed
+14:16:41:258  INFO 11812 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xd0608d62, L:/192.168.187.1:52859 ! R:/192.168.187.128:8099]) will closed
+15:34:18:961  INFO 26244 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+15:34:19:947  INFO 26244 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=294f897e-d813-36aa-9b6c-5549f6e7dc4d
+15:34:20:006  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:007  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:007  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:050  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:053  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:054  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:054  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x000001ad926371d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:055  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:058  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:061  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:20:064  INFO 26244 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:34:20:118  INFO 26244 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:34:20:124  INFO 26244 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:34:20:198  INFO 26244 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+15:34:20:281  INFO 26244 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:34:20:438  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195
+15:34:20:438  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] RpcClient init label, labels = {module=naming, source=sdk}
+15:34:20:439  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:34:20:440  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:34:20:440  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:34:20:440  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Try to connect to server on start up, server: {serverIp = '192.168.187.128', server main port = 8848}
+15:34:20:562  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Success to connect to server [192.168.187.128:8848] on start up, connectionId = 1747812860601_192.168.187.1_60362
+15:34:20:562  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:34:20:563  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda/0x000001ad92509a90
+15:34:20:563  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Notify connected event to listeners.
+15:34:20:613  INFO 26244 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.187.128:8099
+15:34:20:620  INFO 26244 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.187.128:8099,msg:< RegisterTMRequest{applicationId='cart-service', transactionServiceGroup='hmall'} >
+15:34:20:727  WARN 26244 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+15:34:20:745  INFO 26244 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x87278431, L:/192.168.187.1:60363 - R:/192.168.187.128:8099]
+15:34:20:750  INFO 26244 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 43 ms, version:1.5.2,role:TMROLE,channel:[id: 0x87278431, L:/192.168.187.1:60363 - R:/192.168.187.128:8099]
+15:34:20:751  INFO 26244 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[cart-service] txServiceGroup[hmall]
+15:34:20:763  INFO 26244 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+15:34:20:764  INFO 26244 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+15:34:20:771  INFO 26244 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:34:20:771  INFO 26244 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[cart-service] txServiceGroup[hmall]
+15:34:20:771  INFO 26244 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+15:34:20:773  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:21:049  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:21:052  INFO 26244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:34:21:116  INFO 26244 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Receive server push request, request = NotifySubscriberRequest, requestId = 144
+15:34:21:118  INFO 26244 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Ack server push request, request = NotifySubscriberRequest, requestId = 144
+15:34:21:298  INFO 26244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+15:34:21:310  INFO 26244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:34:21:311  INFO 26244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:34:21:499  INFO 26244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:34:21:499  INFO 26244 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2521 ms
+15:34:21:826  INFO 26244 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+15:34:22:194  INFO 26244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:34:22:507  INFO 26244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:34:22:568  INFO 26244 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.187.128:8099
+15:34:22:569  INFO 26244 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.187.128:3306/hm-cart
+15:34:22:569  INFO 26244 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.187.128:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.187.128:3306/hm-cart', applicationId='cart-service', transactionServiceGroup='hmall'} >
+15:34:22:582  INFO 26244 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x270d18cc, L:/192.168.187.1:60365 - R:/192.168.187.128:8099]
+15:34:22:582  INFO 26244 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 10 ms, version:1.5.2,role:RMROLE,channel:[id: 0x270d18cc, L:/192.168.187.1:60365 - R:/192.168.187.128:8099]
+15:34:22:990  INFO 26244 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:34:23:376  INFO 26244 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:34:23:994  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 2b563cb1-06b0-4868-a1f8-ef775fcefa28
+15:34:23:995  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] RpcClient init label, labels = {module=naming, source=sdk}
+15:34:23:995  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:34:23:995  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:34:23:995  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:34:23:995  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Try to connect to server on start up, server: {serverIp = '192.168.187.128', server main port = 8848}
+15:34:24:116  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Success to connect to server [192.168.187.128:8848] on start up, connectionId = 1747812864155_192.168.187.1_60375
+15:34:24:117  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:34:24:117  INFO 26244 --- [main] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda/0x000001ad92509a90
+15:34:24:117  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Notify connected event to listeners.
+15:34:24:154  INFO 26244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+15:34:24:164  INFO 26244 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.236.1:8082 register finished
+15:34:24:171  INFO 26244 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:34:24:173  INFO 26244 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:34:24:196  INFO 26244 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:34:24:267  INFO 26244 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.187.128:5672]
+15:34:24:316  INFO 26244 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3b75b7b4:0/SimpleConnection@729feae8 [delegate=amqp://hmall@192.168.187.128:5672//hmall, localPort= 60376]
+15:34:24:374  INFO 26244 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 7.497 seconds (JVM running for 8.199)
+15:34:24:379  INFO 26244 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service, group=DEFAULT_GROUP
+15:34:24:380  INFO 26244 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service.yaml, group=DEFAULT_GROUP
+15:34:24:380  INFO 26244 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service-local.yaml, group=DEFAULT_GROUP
+15:34:24:721  INFO 26244 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Receive server push request, request = NotifySubscriberRequest, requestId = 146
+15:34:24:724  INFO 26244 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Ack server push request, request = NotifySubscriberRequest, requestId = 146
+15:34:37:113  INFO 26244 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:34:37:114  INFO 26244 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+15:34:37:115  INFO 26244 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+15:34:37:337 DEBUG 26244 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:34:37:362 DEBUG 26244 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:34:37:386 DEBUG 26244 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+15:34:44:020 DEBUG 26244 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+15:34:44:020 DEBUG 26244 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+15:34:44:020 DEBUG 26244 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:34:44:020 DEBUG 26244 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+15:34:44:020 DEBUG 26244 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+15:34:44:035 DEBUG 26244 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:34:44:131 DEBUG 26244 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+15:34:44:131 DEBUG 26244 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+15:34:44:147 DEBUG 26244 --- [http-nio-8082-exec-1] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+15:34:44:226 DEBUG 26244 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:34:44:226 DEBUG 26244 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:34:44:236 DEBUG 26244 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+15:34:44:246 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+15:34:44:247 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+15:34:44:247 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+15:34:44:967  INFO 26244 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Receive server push request, request = NotifySubscriberRequest, requestId = 148
+15:34:44:967  INFO 26244 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Ack server push request, request = NotifySubscriberRequest, requestId = 148
+15:34:45:460 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (1216ms)
+15:34:45:460 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+15:34:45:460 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+15:34:45:460 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 07:34:45 GMT
+15:34:45:460 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+15:34:45:460 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+15:34:45:460 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+15:34:45:460 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":73,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+15:34:45:460 DEBUG 26244 --- [http-nio-8082-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+15:34:48:965 DEBUG 26244 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+15:34:48:966 DEBUG 26244 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 115(Long)
+15:34:48:970 DEBUG 26244 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+15:34:49:008 DEBUG 26244 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:34:49:009 DEBUG 26244 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:34:49:015 DEBUG 26244 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+15:34:49:017 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+15:34:49:017 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+15:34:49:018 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+15:34:49:043 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (26ms)
+15:34:49:043 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+15:34:49:043 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+15:34:49:043 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 07:34:49 GMT
+15:34:49:043 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+15:34:49:044 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+15:34:49:044 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+15:34:49:044 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":73,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+15:34:49:044 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+15:34:59:947  INFO 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+15:34:59:951 DEBUG 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+15:34:59:951 DEBUG 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+15:34:59:961 DEBUG 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+15:38:29:581  INFO 26244 --- [nacos-grpc-client-executor-58] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Receive server push request, request = NotifySubscriberRequest, requestId = 153
+15:38:29:585  INFO 26244 --- [nacos-grpc-client-executor-58] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Ack server push request, request = NotifySubscriberRequest, requestId = 153
+15:38:42:205  INFO 26244 --- [nacos-grpc-client-executor-60] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Receive server push request, request = NotifySubscriberRequest, requestId = 157
+15:38:42:212  INFO 26244 --- [nacos-grpc-client-executor-60] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Ack server push request, request = NotifySubscriberRequest, requestId = 157
+15:38:56:471 DEBUG 26244 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:38:56:472 DEBUG 26244 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:38:56:473 DEBUG 26244 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+15:39:04:145 DEBUG 26244 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+15:39:04:145 DEBUG 26244 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+15:39:04:145 DEBUG 26244 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:39:04:145 DEBUG 26244 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+15:39:04:145 DEBUG 26244 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+15:39:04:160 DEBUG 26244 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:39:04:160 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+15:39:04:160 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+15:39:04:160 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+15:39:04:265 DEBUG 26244 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:39:04:267 DEBUG 26244 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:39:04:271 DEBUG 26244 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+15:39:04:274 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+15:39:04:275 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+15:39:04:275 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+15:39:05:130 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (855ms)
+15:39:05:131 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+15:39:05:131 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+15:39:05:131 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 07:39:05 GMT
+15:39:05:131 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+15:39:05:132 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+15:39:05:132 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+15:39:05:138 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":71,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+15:39:05:139 DEBUG 26244 --- [http-nio-8082-exec-6] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+15:39:06:252 DEBUG 26244 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+15:39:06:252 DEBUG 26244 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 116(Long)
+15:39:06:257 DEBUG 26244 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+15:39:06:279 DEBUG 26244 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:39:06:279 DEBUG 26244 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:39:06:282 DEBUG 26244 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+15:39:06:282 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+15:39:06:282 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+15:39:06:282 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+15:39:06:308 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (20ms)
+15:39:06:308 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+15:39:06:308 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+15:39:06:308 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 07:39:06 GMT
+15:39:06:308 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+15:39:06:308 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+15:39:06:308 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+15:39:06:308 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":71,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+15:39:06:308 DEBUG 26244 --- [http-nio-8082-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+15:39:09:850  INFO 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[100002672307]
+15:39:09:866 DEBUG 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+15:39:09:866 DEBUG 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100002672307(Long)
+15:39:09:866 DEBUG 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+15:41:12:303 DEBUG 26244 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:41:12:303 DEBUG 26244 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:41:12:306 DEBUG 26244 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+15:41:20:124 DEBUG 26244 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+15:41:20:124 DEBUG 26244 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100002672307(Long)
+15:41:20:136 DEBUG 26244 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:41:20:136 DEBUG 26244 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+15:41:20:136 DEBUG 26244 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+15:41:20:136 DEBUG 26244 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:41:20:136 DEBUG 26244 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+15:41:20:136 DEBUG 26244 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100002672307(Long), 赛尔号66666(String), 100(Integer), https://loremflickr.com/400/400?lock=240169801987585(String)
+15:41:20:145 DEBUG 26244 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+15:41:20:219 DEBUG 26244 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:41:20:219 DEBUG 26244 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:41:20:227 DEBUG 26244 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+15:41:20:229 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+15:41:20:230 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+15:41:20:230 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+15:41:20:254 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (24ms)
+15:41:20:255 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+15:41:20:255 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+15:41:20:256 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 07:41:20 GMT
+15:41:20:256 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+15:41:20:256 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+15:41:20:256 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+15:41:20:256 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":71,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+15:41:20:257 DEBUG 26244 --- [http-nio-8082-exec-5] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+15:41:25:835 DEBUG 26244 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:41:25:835 DEBUG 26244 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:41:25:837 DEBUG 26244 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+15:41:25:841 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=100002672307 HTTP/1.1
+15:41:25:841 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+15:41:25:842 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+15:41:25:854 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (11ms)
+15:41:25:854 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+15:41:25:854 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+15:41:25:854 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 07:41:25 GMT
+15:41:25:854 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+15:41:25:854 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+15:41:25:854 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+15:41:25:855 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"100002672307","name":"赛尔号66666","price":100,"stock":71,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+15:41:25:855 DEBUG 26244 --- [http-nio-8082-exec-9] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (240-byte body)
+15:41:32:751 DEBUG 26244 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ? AND item_id = ?)
+15:41:32:751 DEBUG 26244 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 1945514(Long)
+15:41:32:751 DEBUG 26244 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:41:32:751 DEBUG 26244 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) AS total FROM cart WHERE (user_id = ?)
+15:41:32:751 DEBUG 26244 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+15:41:32:751 DEBUG 26244 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:41:32:751 DEBUG 26244 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, price, image ) VALUES ( ?, ?, ?, ?, ? )
+15:41:32:767 DEBUG 26244 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 1945514(Long), 飞利浦（PHILIPS） E163K 陨石黑 移动联通2G直板按键老人手机 双卡双待 超长待机 老年手机 学生备用功能机(String), 42500(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t26635/38/2383014119/199796/cd3c8360/5bffb68eN9285213a.jpg!q70.jpg.webp(String)
+15:41:32:767 DEBUG 26244 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+15:41:32:849 DEBUG 26244 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:41:32:850 DEBUG 26244 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:41:32:851 DEBUG 26244 --- [http-nio-8082-exec-8] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+15:41:32:851 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=1945514&ids=100002672307 HTTP/1.1
+15:41:32:851 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+15:41:32:851 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+15:41:32:873 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (18ms)
+15:41:32:873 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+15:41:32:873 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+15:41:32:873 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 07:41:32 GMT
+15:41:32:873 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+15:41:32:873 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+15:41:32:873 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+15:41:32:873 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"1945514","name":"飞利浦（PHILIPS） E163K 陨石黑 移动联通2G直板按键老人手机 双卡双待 超长待机 老年手机 学生备用功能机","price":42500,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t26635/38/2383014119/199796/cd3c8360/5bffb68eN9285213a.jpg!q70.jpg.webp","category":"手机","brand":"飞利浦","spec":"{\"颜色\": \"黑色\", \"版本\": \"E163K\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100002672307","name":"赛尔号66666","price":100,"stock":71,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+15:41:32:873 DEBUG 26244 --- [http-nio-8082-exec-8] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (709-byte body)
+15:41:34:995 DEBUG 26244 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.updateById    : ==>  Preparing: UPDATE cart SET num=? WHERE id=?
+15:41:34:995 DEBUG 26244 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.updateById    : ==> Parameters: 2(Integer), 118(Long)
+15:41:34:995 DEBUG 26244 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.updateById    : <==    Updates: 1
+15:41:35:018 DEBUG 26244 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:41:35:018 DEBUG 26244 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:41:35:023 DEBUG 26244 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+15:41:35:025 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=1945514&ids=100002672307 HTTP/1.1
+15:41:35:025 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+15:41:35:025 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+15:41:35:037 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200  (11ms)
+15:41:35:037 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+15:41:35:037 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+15:41:35:037 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Wed, 21 May 2025 07:41:35 GMT
+15:41:35:037 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+15:41:35:037 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+15:41:35:037 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+15:41:35:037 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"1945514","name":"飞利浦（PHILIPS） E163K 陨石黑 移动联通2G直板按键老人手机 双卡双待 超长待机 老年手机 学生备用功能机","price":42500,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t26635/38/2383014119/199796/cd3c8360/5bffb68eN9285213a.jpg!q70.jpg.webp","category":"手机","brand":"飞利浦","spec":"{\"颜色\": \"黑色\", \"版本\": \"E163K\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"100002672307","name":"赛尔号66666","price":100,"stock":71,"image":"https://loremflickr.com/400/400?lock=240169801987585","category":"零食","brand":"赛尔号","spec":"<null>","sold":100,"commentCount":0,"isAD":true,"status":1}]
+15:41:35:037 DEBUG 26244 --- [http-nio-8082-exec-10] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (709-byte body)
+15:41:51:070  INFO 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.cart.listener.CreateOrderListener    : 接收到交换机消息，清除购物车商品:[1945514, 100002672307]
+15:41:51:072 DEBUG 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?,?))
+15:41:51:072 DEBUG 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 1945514(Long), 100002672307(Long)
+15:41:51:075 DEBUG 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 2
+15:56:47:733 DEBUG 26244 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:56:47:733 DEBUG 26244 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+15:56:47:735 DEBUG 26244 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+15:59:23:071  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2153d4d6-124f-4764-b4ed-21d81b13a234_config-0] Server healthy check fail, currentConnection = 1747812858769_192.168.187.1_60359
+15:59:23:072  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2153d4d6-124f-4764-b4ed-21d81b13a234_config-0] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+15:59:23:532 ERROR 26244 --- [com.alibaba.nacos.client.Worker] com.alibaba.nacos.common.remote.client   : Send request fail, request = ConfigBatchListenRequest{headers={}, requestId='null'}, retryTimes = 0, errorMessage = java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 810000 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@7fb2454d[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@236a804c, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@43431d75, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@da0e62e}}}}}]]
+15:59:24:378  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2153d4d6-124f-4764-b4ed-21d81b13a234_config-0] Success to connect a server [192.168.187.128:8848], connectionId = 1747814364442_192.168.187.1_61501
+15:59:24:378  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2153d4d6-124f-4764-b4ed-21d81b13a234_config-0] Abandon prev connection, server is 192.168.187.128:8848, connectionId is 1747812858769_192.168.187.1_60359
+15:59:24:378  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1747812858769_192.168.187.1_60359
+15:59:24:382  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2153d4d6-124f-4764-b4ed-21d81b13a234_config-0] Notify disconnected event to listeners
+15:59:24:383  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2153d4d6-124f-4764-b4ed-21d81b13a234_config-0] Notify connected event to listeners.
+15:59:24:384  WARN 26244 --- [nacos-grpc-client-executor-322] c.a.n.c.remote.client.grpc.GrpcClient    : [1747812858769_192.168.187.1_60359]Ignore error event,isRunning:true,isAbandon=true
+15:59:28:440 ERROR 26244 --- [com.alibaba.nacos.client.naming.updater.2] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 0, errorMessage = java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 2 milliseconds, 32200 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@4b02b61[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@236a804c, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@43431d75, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@da0e62e}}}}}]]
+15:59:30:150  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Server check success, currentServer is 192.168.187.128:8848 
+15:59:39:213  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Server healthy check fail, currentConnection = 1747812860601_192.168.187.1_60362
+15:59:39:213  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+15:59:40:339  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Success to connect a server [192.168.187.128:8848], connectionId = 1747814380404_192.168.187.1_61548
+15:59:40:339  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Abandon prev connection, server is 192.168.187.128:8848, connectionId is 1747812860601_192.168.187.1_60362
+15:59:40:339  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1747812860601_192.168.187.1_60362
+15:59:40:339  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Notify disconnected event to listeners
+15:59:40:340  INFO 26244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Notify connected event to listeners.
+15:59:40:341  WARN 26244 --- [nacos-grpc-client-executor-310] c.a.n.c.remote.client.grpc.GrpcClient    : [1747812860601_192.168.187.1_60362]Ignore error event,isRunning:true,isAbandon=true
+15:59:43:599  INFO 26244 --- [nacos-grpc-client-executor-314] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Receive server push request, request = NotifySubscriberRequest, requestId = 176
+15:59:43:599  INFO 26244 --- [nacos-grpc-client-executor-314] com.alibaba.nacos.common.remote.client   : [7fcc4f4a-59d0-4f87-ae67-ebb4c5e18195] Ack server push request, request = NotifySubscriberRequest, requestId = 176
+16:19:14:329  WARN 26244 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+16:19:14:329  WARN 26244 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+16:19:14:329  WARN 26244 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+16:19:14:329  WARN 26244 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+16:19:14:385  INFO 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+16:19:14:540  INFO 26244 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+16:19:14:637  INFO 26244 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+16:19:14:642  INFO 26244 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+16:19:14:981  INFO 26244 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+16:19:14:981  INFO 26244 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@54cb2cee[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+16:19:14:981  INFO 26244 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1747812864155_192.168.187.1_60375
+16:19:14:981  INFO 26244 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@7c1f435a[Running, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 551]
+16:19:14:981  INFO 26244 --- [nacos-grpc-client-executor-551] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Receive server push request, request = NotifySubscriberRequest, requestId = 178
+16:19:14:981  INFO 26244 --- [nacos-grpc-client-executor-551] com.alibaba.nacos.common.remote.client   : [2b563cb1-06b0-4868-a1f8-ef775fcefa28] Ack server push request, request = NotifySubscriberRequest, requestId = 178
+16:19:14:981 ERROR 26244 --- [nacos-grpc-client-executor-551] c.a.n.c.remote.client.grpc.GrpcClient    : [1747812864155_192.168.187.1_60375]Error to send ack response, ackId->178
+16:19:14:981  WARN 26244 --- [nacos-grpc-client-executor-551] c.a.n.c.remote.client.grpc.GrpcClient    : [1747812864155_192.168.187.1_60375]Ignore error event,isRunning:false,isAbandon=false
+16:19:14:994  INFO 26244 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+16:19:15:009  INFO 26244 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+16:19:15:009  INFO 26244 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+16:19:15:026  INFO 26244 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x87278431, L:/192.168.187.1:60363 ! R:/192.168.187.128:8099]
+16:19:15:026  INFO 26244 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x87278431, L:/192.168.187.1:60363 ! R:/192.168.187.128:8099]
+16:19:15:026  INFO 26244 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x87278431, L:/192.168.187.1:60363 ! R:/192.168.187.128:8099]
+16:19:15:026  INFO 26244 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x270d18cc, L:/192.168.187.1:60365 ! R:/192.168.187.128:8099]
+16:19:15:026  INFO 26244 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x270d18cc, L:/192.168.187.1:60365 ! R:/192.168.187.128:8099]
+16:19:15:026  INFO 26244 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x270d18cc, L:/192.168.187.1:60365 ! R:/192.168.187.128:8099]
+16:19:15:026  INFO 26244 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x270d18cc, L:/192.168.187.1:60365 ! R:/192.168.187.128:8099]
+16:19:15:026  INFO 26244 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x87278431, L:/192.168.187.1:60363 ! R:/192.168.187.128:8099]
+16:19:15:026  INFO 26244 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x87278431, L:/192.168.187.1:60363 ! R:/192.168.187.128:8099]) will closed
+16:19:15:026  INFO 26244 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x270d18cc, L:/192.168.187.1:60365 ! R:/192.168.187.128:8099]) will closed
+16:19:15:026  INFO 26244 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x270d18cc, L:/192.168.187.1:60365 ! R:/192.168.187.128:8099]) will closed
+16:19:15:026  INFO 26244 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x87278431, L:/192.168.187.1:60363 ! R:/192.168.187.128:8099]) will closed

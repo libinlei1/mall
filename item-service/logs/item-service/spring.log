@@ -1,0 +1,1280 @@
+15:32:42:070  INFO 9096 --- [main] com.hmall.item.es.ElasticDocumentTest    : The following 1 profile is active: "local"
+15:32:43:135  INFO 9096 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=853c9765-5561-300f-bb4c-8c20596e697d
+15:32:43:286  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:290  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:292  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:365  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:384  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:386  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:387  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x0000017601725f80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:390  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:395  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:397  INFO 9096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:43:403  INFO 9096 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:32:43:477  INFO 9096 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:32:43:483  INFO 9096 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:32:43:504  WARN 9096 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalTransactionScanner' defined in class path resource [io/seata/spring/boot/autoconfigure/SeataAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+15:32:43:512  INFO 9096 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:32:43:550 ERROR 9096 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalTransactionScanner' defined in class path resource [io/seata/spring/boot/autoconfigure/SeataAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:764) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136) ~[spring-boot-test-2.7.12.jar:2.7.12]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:194) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:782) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 89 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError: null
+	at net.sf.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:166) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory$Generator.create(KeyFactory.java:144) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:116) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:108) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:104) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.proxy.Enhancer.<clinit>(Enhancer.java:69) ~[cglib-3.1.jar:na]
+	at io.seata.config.ConfigurationCache.proxy(ConfigurationCache.java:104) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.config.ConfigurationFactory.buildConfiguration(ConfigurationFactory.java:136) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.config.ConfigurationFactory.getInstance(ConfigurationFactory.java:94) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.annotation.GlobalTransactionScanner.<init>(GlobalTransactionScanner.java:105) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.annotation.GlobalTransactionScanner.<init>(GlobalTransactionScanner.java:162) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.boot.autoconfigure.SeataAutoConfiguration.globalTransactionScanner(SeataAutoConfiguration.java:83) ~[seata-spring-boot-starter-1.5.2.jar:1.5.2]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 90 common frames omitted
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @49dc9d2e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:388) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:364) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:312) ~[na:na]
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203) ~[na:na]
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197) ~[na:na]
+	at net.sf.cglib.core.ReflectUtils$2.run(ReflectUtils.java:56) ~[cglib-3.1.jar:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[na:na]
+	at net.sf.cglib.core.ReflectUtils.<clinit>(ReflectUtils.java:46) ~[cglib-3.1.jar:na]
+	... 107 common frames omitted
+
+15:32:43:554 ERROR 9096 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@26ceffa8] to prepare test instance [com.hmall.item.es.ElasticDocumentTest@1c610f]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:194) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:782) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalTransactionScanner' defined in class path resource [io/seata/spring/boot/autoconfigure/SeataAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:764) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136) ~[spring-boot-test-2.7.12.jar:2.7.12]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.27.jar:5.3.27]
+	... 71 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 89 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError: null
+	at net.sf.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:166) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory$Generator.create(KeyFactory.java:144) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:116) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:108) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:104) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.proxy.Enhancer.<clinit>(Enhancer.java:69) ~[cglib-3.1.jar:na]
+	at io.seata.config.ConfigurationCache.proxy(ConfigurationCache.java:104) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.config.ConfigurationFactory.buildConfiguration(ConfigurationFactory.java:136) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.config.ConfigurationFactory.getInstance(ConfigurationFactory.java:94) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.annotation.GlobalTransactionScanner.<init>(GlobalTransactionScanner.java:105) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.annotation.GlobalTransactionScanner.<init>(GlobalTransactionScanner.java:162) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.boot.autoconfigure.SeataAutoConfiguration.globalTransactionScanner(SeataAutoConfiguration.java:83) ~[seata-spring-boot-starter-1.5.2.jar:1.5.2]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 90 common frames omitted
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @49dc9d2e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:388) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:364) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:312) ~[na:na]
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203) ~[na:na]
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197) ~[na:na]
+	at net.sf.cglib.core.ReflectUtils$2.run(ReflectUtils.java:56) ~[cglib-3.1.jar:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[na:na]
+	at net.sf.cglib.core.ReflectUtils.<clinit>(ReflectUtils.java:46) ~[cglib-3.1.jar:na]
+	... 107 common frames omitted
+
+15:32:43:580  WARN 9096 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:32:43:579  WARN 9096 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:32:43:580  WARN 9096 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:32:43:581  WARN 9096 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:33:41:755  INFO 12896 --- [main] com.hmall.item.es.ElasticDocumentTest    : The following 1 profile is active: "local"
+15:33:42:908  INFO 12896 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=853c9765-5561-300f-bb4c-8c20596e697d
+15:33:43:043  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:047  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:049  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:113  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:129  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:131  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:133  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x000001bf81726528] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:136  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:141  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:145  INFO 12896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:43:155  INFO 12896 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:33:43:226  INFO 12896 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:33:43:232  INFO 12896 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:33:43:256  WARN 12896 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalTransactionScanner' defined in class path resource [io/seata/spring/boot/autoconfigure/SeataAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+15:33:43:264  INFO 12896 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:33:43:301 ERROR 12896 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalTransactionScanner' defined in class path resource [io/seata/spring/boot/autoconfigure/SeataAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:764) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136) ~[spring-boot-test-2.7.12.jar:2.7.12]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:194) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:782) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 89 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError: null
+	at net.sf.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:166) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory$Generator.create(KeyFactory.java:144) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:116) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:108) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:104) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.proxy.Enhancer.<clinit>(Enhancer.java:69) ~[cglib-3.1.jar:na]
+	at io.seata.config.ConfigurationCache.proxy(ConfigurationCache.java:104) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.config.ConfigurationFactory.buildConfiguration(ConfigurationFactory.java:136) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.config.ConfigurationFactory.getInstance(ConfigurationFactory.java:94) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.annotation.GlobalTransactionScanner.<init>(GlobalTransactionScanner.java:105) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.annotation.GlobalTransactionScanner.<init>(GlobalTransactionScanner.java:162) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.boot.autoconfigure.SeataAutoConfiguration.globalTransactionScanner(SeataAutoConfiguration.java:83) ~[seata-spring-boot-starter-1.5.2.jar:1.5.2]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 90 common frames omitted
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @3aa5151d
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:388) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:364) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:312) ~[na:na]
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203) ~[na:na]
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197) ~[na:na]
+	at net.sf.cglib.core.ReflectUtils$2.run(ReflectUtils.java:56) ~[cglib-3.1.jar:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[na:na]
+	at net.sf.cglib.core.ReflectUtils.<clinit>(ReflectUtils.java:46) ~[cglib-3.1.jar:na]
+	... 107 common frames omitted
+
+15:33:43:305 ERROR 12896 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6ad59d92] to prepare test instance [com.hmall.item.es.ElasticDocumentTest@3149409c]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:194) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:782) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalTransactionScanner' defined in class path resource [io/seata/spring/boot/autoconfigure/SeataAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:764) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136) ~[spring-boot-test-2.7.12.jar:2.7.12]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.27.jar:5.3.27]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.27.jar:5.3.27]
+	... 71 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.seata.spring.annotation.GlobalTransactionScanner]: Factory method 'globalTransactionScanner' threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 89 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError: null
+	at net.sf.cglib.core.KeyFactory$Generator.generateClass(KeyFactory.java:166) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory$Generator.create(KeyFactory.java:144) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:116) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:108) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.core.KeyFactory.create(KeyFactory.java:104) ~[cglib-3.1.jar:na]
+	at net.sf.cglib.proxy.Enhancer.<clinit>(Enhancer.java:69) ~[cglib-3.1.jar:na]
+	at io.seata.config.ConfigurationCache.proxy(ConfigurationCache.java:104) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.config.ConfigurationFactory.buildConfiguration(ConfigurationFactory.java:136) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.config.ConfigurationFactory.getInstance(ConfigurationFactory.java:94) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.annotation.GlobalTransactionScanner.<init>(GlobalTransactionScanner.java:105) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.annotation.GlobalTransactionScanner.<init>(GlobalTransactionScanner.java:162) ~[seata-all-1.5.2.jar:1.5.2]
+	at io.seata.spring.boot.autoconfigure.SeataAutoConfiguration.globalTransactionScanner(SeataAutoConfiguration.java:83) ~[seata-spring-boot-starter-1.5.2.jar:1.5.2]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 90 common frames omitted
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @3aa5151d
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:388) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:364) ~[na:na]
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:312) ~[na:na]
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203) ~[na:na]
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197) ~[na:na]
+	at net.sf.cglib.core.ReflectUtils$2.run(ReflectUtils.java:56) ~[cglib-3.1.jar:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[na:na]
+	at net.sf.cglib.core.ReflectUtils.<clinit>(ReflectUtils.java:46) ~[cglib-3.1.jar:na]
+	... 107 common frames omitted
+
+15:33:43:325  WARN 12896 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:33:43:325  WARN 12896 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:33:43:326  WARN 12896 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:36:40:929  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : The following 1 profile is active: "local"
+15:36:42:022  INFO 22244 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=853c9765-5561-300f-bb4c-8c20596e697d
+15:36:42:193  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:198  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:200  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:254  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:271  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:273  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:275  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x0000027f5d727728] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:277  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:282  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:286  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:42:293  INFO 22244 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:36:42:383  INFO 22244 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:36:42:389  INFO 22244 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:36:42:473  INFO 22244 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+15:36:42:606  INFO 22244 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:36:42:779  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of b03d88ca-e3b2-4c45-8fa5-5099da3ff30e
+15:36:42:779  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] RpcClient init label, labels = {module=naming, source=sdk}
+15:36:42:781  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:36:42:781  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:36:42:782  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:36:42:783  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] Try to connect to server on start up, server: {serverIp = '192.168.187.128', server main port = 8848}
+15:36:42:915  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] Success to connect to server [192.168.187.128:8848] on start up, connectionId = 1747467402964_192.168.187.1_56737
+15:36:42:916  INFO 22244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] Notify connected event to listeners.
+15:36:42:916  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:36:42:916  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda/0x0000027f5d5f7d88
+15:36:42:989  INFO 22244 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.187.128:8099
+15:36:42:997  INFO 22244 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.187.128:8099,msg:< RegisterTMRequest{applicationId='item-service', transactionServiceGroup='hmall'} >
+15:36:43:143  WARN 22244 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+15:36:43:225  INFO 22244 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xc06862ef, L:/192.168.187.1:56739 - R:/192.168.187.128:8099]
+15:36:43:230  INFO 22244 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 112 ms, version:1.5.2,role:TMROLE,channel:[id: 0xc06862ef, L:/192.168.187.1:56739 - R:/192.168.187.128:8099]
+15:36:43:231  INFO 22244 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[item-service] txServiceGroup[hmall]
+15:36:43:243  INFO 22244 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+15:36:43:244  INFO 22244 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+15:36:43:251  INFO 22244 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:36:43:251  INFO 22244 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[item-service] txServiceGroup[hmall]
+15:36:43:251  INFO 22244 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+15:36:43:255  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:43:545  INFO 22244 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] Receive server push request, request = NotifySubscriberRequest, requestId = 1
+15:36:43:546  INFO 22244 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [b03d88ca-e3b2-4c45-8fa5-5099da3ff30e] Ack server push request, request = NotifySubscriberRequest, requestId = 1
+15:36:43:661  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:43:663  INFO 22244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:43:944  INFO 22244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:36:44:392  INFO 22244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:36:44:448  INFO 22244 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.187.128:8099
+15:36:44:449  INFO 22244 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.187.128:3306/hm-item
+15:36:44:449  INFO 22244 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.187.128:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.187.128:3306/hm-item', applicationId='item-service', transactionServiceGroup='hmall'} >
+15:36:44:464  INFO 22244 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xfe395c72, L:/192.168.187.1:56741 - R:/192.168.187.128:8099]
+15:36:44:464  INFO 22244 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 12 ms, version:1.5.2,role:RMROLE,channel:[id: 0xfe395c72, L:/192.168.187.1:56741 - R:/192.168.187.128:8099]
+15:36:45:395  INFO 22244 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:36:46:431  INFO 22244 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:36:47:650  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 59794826-18f1-46c6-8d43-25eecc0008f6
+15:36:47:650  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] RpcClient init label, labels = {module=naming, source=sdk}
+15:36:47:650  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:36:47:650  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:36:47:651  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:36:47:651  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] Try to connect to server on start up, server: {serverIp = '192.168.187.128', server main port = 8848}
+15:36:47:778  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] Success to connect to server [192.168.187.128:8848] on start up, connectionId = 1747467407831_192.168.187.1_56753
+15:36:47:778  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:36:47:778  INFO 22244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] Notify connected event to listeners.
+15:36:47:778  INFO 22244 --- [main] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda/0x0000027f5d5f7d88
+15:36:47:789  INFO 22244 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:36:47:791  INFO 22244 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:36:47:825  INFO 22244 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:36:47:974  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : Started ElasticDocumentTest in 9.233 seconds (JVM running for 10.809)
+15:36:47:981  INFO 22244 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service.yaml, group=DEFAULT_GROUP
+15:36:47:982  INFO 22244 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service-local.yaml, group=DEFAULT_GROUP
+15:36:47:982  INFO 22244 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service, group=DEFAULT_GROUP
+15:36:48:310  WARN 22244 --- [main] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @4afeaf0c
+15:36:48:336  INFO 22244 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] Receive server push request, request = NotifySubscriberRequest, requestId = 2
+15:36:48:338  INFO 22244 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [59794826-18f1-46c6-8d43-25eecc0008f6] Ack server push request, request = NotifySubscriberRequest, requestId = 2
+15:36:48:395 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:48:424 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:48:826 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:48:830 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?
+15:36:48:831 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 1000(Long)
+15:36:48:928 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:48:935  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第1页数据，共1000条
+15:36:49:611 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:49:612 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:49:635 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:49:637 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:49:638 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 1000(Long), 1000(Long)
+15:36:49:708 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:49:708  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第2页数据，共1000条
+15:36:49:916 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:49:916 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:49:931 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:49:932 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:49:932 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 2000(Long), 1000(Long)
+15:36:50:051 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:50:051  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第3页数据，共1000条
+15:36:50:214 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:50:215 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:50:230 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:50:230 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:50:232 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 3000(Long), 1000(Long)
+15:36:50:340 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:50:340  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第4页数据，共1000条
+15:36:50:480 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:50:482 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:50:497 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:50:497 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:50:498 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 4000(Long), 1000(Long)
+15:36:50:620 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:50:621  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第5页数据，共1000条
+15:36:50:781 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:50:782 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:50:796 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:50:796 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:50:796 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 5000(Long), 1000(Long)
+15:36:50:821 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:50:821  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第6页数据，共1000条
+15:36:50:977 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:50:978 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:50:996 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:50:996 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:50:997 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 6000(Long), 1000(Long)
+15:36:51:038 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:51:039  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第7页数据，共1000条
+15:36:51:165 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:51:165 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:51:180 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:51:180 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:51:180 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 7000(Long), 1000(Long)
+15:36:51:219 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:51:221  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第8页数据，共1000条
+15:36:51:349 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:51:351 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:51:364 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:51:364 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:51:364 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 8000(Long), 1000(Long)
+15:36:51:396 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:51:396  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第9页数据，共1000条
+15:36:51:537 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:51:538 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:51:556 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:51:556 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:51:556 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 9000(Long), 1000(Long)
+15:36:51:680 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:51:681  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第10页数据，共1000条
+15:36:51:845 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:51:845 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:51:859 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:51:860 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:51:860 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 10000(Long), 1000(Long)
+15:36:51:890 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:51:890  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第11页数据，共1000条
+15:36:51:981 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:51:981 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:51:995 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:51:995 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:51:997 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 11000(Long), 1000(Long)
+15:36:52:027 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:52:029  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第12页数据，共1000条
+15:36:52:175 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:52:176 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:52:190 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:52:191 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:52:191 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 12000(Long), 1000(Long)
+15:36:52:277 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:52:277  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第13页数据，共1000条
+15:36:52:369 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:52:369 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:52:384 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:52:385 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:52:385 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 13000(Long), 1000(Long)
+15:36:52:457 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:52:458  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第14页数据，共1000条
+15:36:52:578 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:52:580 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:52:594 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:52:594 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:52:594 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 14000(Long), 1000(Long)
+15:36:52:629 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:52:631  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第15页数据，共1000条
+15:36:52:717 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:52:718 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:52:731 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:52:733 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:52:733 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 15000(Long), 1000(Long)
+15:36:52:830 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:52:830  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第16页数据，共1000条
+15:36:52:933 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:52:933 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:52:948 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:52:948 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:52:950 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 16000(Long), 1000(Long)
+15:36:52:989 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:52:989  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第17页数据，共1000条
+15:36:53:090 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:53:090 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:53:106 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:53:106 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:53:106 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 17000(Long), 1000(Long)
+15:36:53:232 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:53:232  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第18页数据，共1000条
+15:36:53:322 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:53:322 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:53:336 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:53:338 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:53:338 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 18000(Long), 1000(Long)
+15:36:53:382 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:53:382  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第19页数据，共1000条
+15:36:53:500 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:53:500 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:53:514 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:53:516 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:53:516 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 19000(Long), 1000(Long)
+15:36:53:561 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:53:562  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第20页数据，共1000条
+15:36:53:679 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:53:680 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:53:694 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:53:694 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:53:694 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 20000(Long), 1000(Long)
+15:36:53:822 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:53:823  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第21页数据，共1000条
+15:36:53:904 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:53:904 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:53:918 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:53:920 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:53:920 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 21000(Long), 1000(Long)
+15:36:53:965 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:53:966  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第22页数据，共1000条
+15:36:54:081 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:54:081 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:54:096 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:54:096 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:54:096 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 22000(Long), 1000(Long)
+15:36:54:149 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:54:149  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第23页数据，共1000条
+15:36:54:225 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:54:226 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:54:238 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:54:240 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:54:240 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 23000(Long), 1000(Long)
+15:36:54:344 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:54:344  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第24页数据，共1000条
+15:36:54:434 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:54:434 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:54:449 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:54:449 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:54:450 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 24000(Long), 1000(Long)
+15:36:54:503 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:54:503  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第25页数据，共1000条
+15:36:54:610 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:54:611 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:54:626 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:54:626 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:54:627 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 25000(Long), 1000(Long)
+15:36:54:766 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:54:768  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第26页数据，共1000条
+15:36:54:870 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:54:870 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:54:886 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:54:886 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:54:886 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 26000(Long), 1000(Long)
+15:36:54:942 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:54:942  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第27页数据，共1000条
+15:36:55:017 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:55:017 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:55:030 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:55:031 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:55:031 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 27000(Long), 1000(Long)
+15:36:55:087 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:55:087  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第28页数据，共1000条
+15:36:55:180 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:55:180 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:55:195 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:55:195 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:55:196 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 28000(Long), 1000(Long)
+15:36:55:312 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:55:312  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第29页数据，共1000条
+15:36:55:394 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:55:396 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:55:409 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:55:409 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:55:409 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 29000(Long), 1000(Long)
+15:36:55:470 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:55:470  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第30页数据，共1000条
+15:36:55:572 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:55:572 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:55:587 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:55:587 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:55:587 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 30000(Long), 1000(Long)
+15:36:55:649 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:55:649  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第31页数据，共1000条
+15:36:55:727 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:55:727 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:55:742 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:55:742 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:55:742 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 31000(Long), 1000(Long)
+15:36:55:897 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:55:898  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第32页数据，共1000条
+15:36:56:002 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:56:004 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:56:017 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:56:017 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:56:019 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 32000(Long), 1000(Long)
+15:36:56:084 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:56:084  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第33页数据，共1000条
+15:36:56:183 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:56:183 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:56:198 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:56:200 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:56:200 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 33000(Long), 1000(Long)
+15:36:56:264 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:56:264  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第34页数据，共1000条
+15:36:56:338 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:56:338 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:56:352 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:56:354 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:56:354 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 34000(Long), 1000(Long)
+15:36:56:420 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:56:420  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第35页数据，共1000条
+15:36:56:506 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:56:506 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:56:519 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:56:520 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:56:520 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 35000(Long), 1000(Long)
+15:36:56:586 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:56:588  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第36页数据，共1000条
+15:36:56:692 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:56:692 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:56:708 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:56:708 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:56:708 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 36000(Long), 1000(Long)
+15:36:56:848 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:56:848  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第37页数据，共1000条
+15:36:56:931 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:56:931 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:56:946 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:56:946 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:56:948 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 37000(Long), 1000(Long)
+15:36:57:019 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:57:019  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第38页数据，共1000条
+15:36:57:101 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:57:103 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:57:117 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:57:117 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:57:117 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 38000(Long), 1000(Long)
+15:36:57:190 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:57:190  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第39页数据，共1000条
+15:36:57:264 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:57:265 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:57:279 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:57:280 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:57:280 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 39000(Long), 1000(Long)
+15:36:57:365 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:57:365  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第40页数据，共1000条
+15:36:57:442 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:57:442 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:57:458 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:57:458 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:57:458 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 40000(Long), 1000(Long)
+15:36:57:536 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:57:536  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第41页数据，共1000条
+15:36:57:620 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:57:620 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:57:635 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:57:635 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:57:635 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 41000(Long), 1000(Long)
+15:36:57:713 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:57:713  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第42页数据，共1000条
+15:36:57:791 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:57:791 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:57:805 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:57:807 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:57:807 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 42000(Long), 1000(Long)
+15:36:57:900 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:57:900  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第43页数据，共1000条
+15:36:57:983 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:57:983 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:57:997 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:57:997 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:57:999 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 43000(Long), 1000(Long)
+15:36:58:095 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:58:096  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第44页数据，共1000条
+15:36:58:190 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:58:190 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:58:205 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:58:205 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:58:207 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 44000(Long), 1000(Long)
+15:36:58:296 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:58:297  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第45页数据，共1000条
+15:36:58:373 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:58:373 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:58:388 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:58:388 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:58:389 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 45000(Long), 1000(Long)
+15:36:58:489 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:58:489  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第46页数据，共1000条
+15:36:58:560 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:58:560 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:58:574 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:58:574 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:58:574 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 46000(Long), 1000(Long)
+15:36:58:659 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:58:659  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第47页数据，共1000条
+15:36:58:738 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:58:738 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:58:753 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:58:753 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:58:753 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 47000(Long), 1000(Long)
+15:36:58:855 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:58:856  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第48页数据，共1000条
+15:36:58:937 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:58:937 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:58:953 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:58:955 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:58:955 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 48000(Long), 1000(Long)
+15:36:59:047 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:59:048  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第49页数据，共1000条
+15:36:59:122 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:59:122 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:59:136 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:59:138 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:59:138 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 49000(Long), 1000(Long)
+15:36:59:229 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:59:230  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第50页数据，共1000条
+15:36:59:305 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:59:307 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:59:320 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:59:322 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:59:322 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 50000(Long), 1000(Long)
+15:36:59:419 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:59:419  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第51页数据，共1000条
+15:36:59:508 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:59:508 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:59:523 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:59:524 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:59:524 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 51000(Long), 1000(Long)
+15:36:59:615 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:59:616  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第52页数据，共1000条
+15:36:59:688 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:59:688 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:59:702 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:59:702 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:59:702 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 52000(Long), 1000(Long)
+15:36:59:802 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:36:59:802  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第53页数据，共1000条
+15:36:59:880 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:36:59:880 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:36:59:894 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:36:59:894 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:36:59:896 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 53000(Long), 1000(Long)
+15:37:00:006 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:00:006  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第54页数据，共1000条
+15:37:00:099 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:00:099 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:00:112 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:00:112 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:00:112 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 54000(Long), 1000(Long)
+15:37:00:208 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:00:209  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第55页数据，共1000条
+15:37:00:308 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:00:308 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:00:323 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:00:325 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:00:325 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 55000(Long), 1000(Long)
+15:37:00:428 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:00:428  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第56页数据，共1000条
+15:37:00:511 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:00:511 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:00:525 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:00:525 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:00:526 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 56000(Long), 1000(Long)
+15:37:00:625 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:00:625  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第57页数据，共1000条
+15:37:00:737 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:00:739 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:00:752 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:00:752 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:00:752 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 57000(Long), 1000(Long)
+15:37:00:857 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:00:857  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第58页数据，共1000条
+15:37:00:931 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:00:931 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:00:945 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:00:945 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:00:945 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 58000(Long), 1000(Long)
+15:37:01:066 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:01:066  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第59页数据，共1000条
+15:37:01:141 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:01:141 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:01:155 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:01:157 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:01:157 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 59000(Long), 1000(Long)
+15:37:01:268 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:01:268  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第60页数据，共1000条
+15:37:01:360 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:01:361 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:01:374 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:01:376 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:01:376 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 60000(Long), 1000(Long)
+15:37:01:484 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:01:484  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第61页数据，共1000条
+15:37:01:563 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:01:563 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:01:578 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:01:578 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:01:580 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 61000(Long), 1000(Long)
+15:37:01:696 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:01:697  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第62页数据，共1000条
+15:37:01:770 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:01:771 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:01:787 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:01:787 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:01:787 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 62000(Long), 1000(Long)
+15:37:01:902 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:01:902  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第63页数据，共1000条
+15:37:01:988 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:01:988 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:02:004 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:02:005 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:02:007 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 63000(Long), 1000(Long)
+15:37:02:131 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:02:133  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第64页数据，共1000条
+15:37:02:210 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:02:210 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:02:228 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:02:230 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:02:230 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 64000(Long), 1000(Long)
+15:37:02:358 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:02:358  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第65页数据，共1000条
+15:37:02:436 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:02:436 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:02:455 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:02:455 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:02:455 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 65000(Long), 1000(Long)
+15:37:02:571 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:02:571  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第66页数据，共1000条
+15:37:02:678 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:02:678 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:02:698 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:02:698 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:02:700 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 66000(Long), 1000(Long)
+15:37:02:820 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:02:821  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第67页数据，共1000条
+15:37:02:884 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:02:886 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:02:899 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:02:899 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:02:899 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 67000(Long), 1000(Long)
+15:37:03:017 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:03:017  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第68页数据，共1000条
+15:37:03:089 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:03:089 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:03:108 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:03:108 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:03:108 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 68000(Long), 1000(Long)
+15:37:03:227 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:03:227  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第69页数据，共1000条
+15:37:03:320 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:03:320 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:03:335 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:03:335 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:03:335 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 69000(Long), 1000(Long)
+15:37:03:469 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:03:470  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第70页数据，共1000条
+15:37:03:551 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:03:551 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:03:565 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:03:565 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:03:565 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 70000(Long), 1000(Long)
+15:37:03:701 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:03:701  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第71页数据，共1000条
+15:37:03:771 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:03:771 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:03:787 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:03:787 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:03:787 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 71000(Long), 1000(Long)
+15:37:03:924 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:03:924  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第72页数据，共1000条
+15:37:04:032 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:04:032 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:04:046 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:04:046 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:04:046 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 72000(Long), 1000(Long)
+15:37:04:179 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:04:179  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第73页数据，共1000条
+15:37:04:250 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:04:250 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:04:266 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:04:266 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:04:267 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 73000(Long), 1000(Long)
+15:37:04:392 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:04:394  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第74页数据，共1000条
+15:37:04:474 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:04:474 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:04:489 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:04:489 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:04:489 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 74000(Long), 1000(Long)
+15:37:04:632 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:04:632  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第75页数据，共1000条
+15:37:04:710 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:04:710 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:04:725 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:04:725 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:04:725 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 75000(Long), 1000(Long)
+15:37:04:858 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:04:858  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第76页数据，共1000条
+15:37:04:935 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:04:935 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:04:949 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:04:950 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:04:950 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 76000(Long), 1000(Long)
+15:37:05:086 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:05:086  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第77页数据，共1000条
+15:37:05:164 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:05:164 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:05:179 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:05:179 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:05:179 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 77000(Long), 1000(Long)
+15:37:05:318 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:05:319  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第78页数据，共1000条
+15:37:05:400 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:05:400 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:05:414 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:05:414 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:05:414 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 78000(Long), 1000(Long)
+15:37:05:548 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:05:548  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第79页数据，共1000条
+15:37:05:623 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:05:623 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:05:642 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:05:644 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:05:644 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 79000(Long), 1000(Long)
+15:37:05:793 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:05:793  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第80页数据，共1000条
+15:37:05:872 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:05:872 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:05:886 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:05:886 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:05:886 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 80000(Long), 1000(Long)
+15:37:06:061 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:06:061  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第81页数据，共1000条
+15:37:06:137 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:06:138 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:06:153 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:06:153 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:06:153 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 81000(Long), 1000(Long)
+15:37:06:303 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:06:304  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第82页数据，共1000条
+15:37:06:384 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:06:384 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:06:399 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:06:399 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:06:399 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 82000(Long), 1000(Long)
+15:37:06:549 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:06:550  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第83页数据，共1000条
+15:37:06:644 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:06:644 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:06:658 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:06:658 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:06:658 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 83000(Long), 1000(Long)
+15:37:06:802 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:06:802  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第84页数据，共1000条
+15:37:06:878 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:06:879 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:06:892 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:06:894 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:06:894 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 84000(Long), 1000(Long)
+15:37:07:040 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:07:040  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第85页数据，共1000条
+15:37:07:121 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:07:121 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:07:137 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:07:137 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:07:137 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 85000(Long), 1000(Long)
+15:37:07:300 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:07:300  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第86页数据，共1000条
+15:37:07:388 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:07:388 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:07:401 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:07:403 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:07:403 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 86000(Long), 1000(Long)
+15:37:07:570 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:07:571  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第87页数据，共1000条
+15:37:07:652 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:07:652 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:07:666 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:07:666 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:07:666 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 87000(Long), 1000(Long)
+15:37:07:817 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:37:07:817  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第88页数据，共1000条
+15:37:07:910 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:07:910 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:07:925 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:07:927 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:37:07:927 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 88000(Long), 1000(Long)
+15:37:08:078 DEBUG 22244 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 476
+15:37:08:078  INFO 22244 --- [main] com.hmall.item.es.ElasticDocumentTest    : 加载第89页数据，共476条
+15:37:08:125 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:37:08:125 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:37:08:140 DEBUG 22244 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:37:08:167  WARN 22244 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:37:08:167  WARN 22244 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:37:08:167  WARN 22244 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:37:08:168  WARN 22244 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:37:08:504  INFO 22244 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:37:08:504  INFO 22244 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@4390b78f[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:37:08:504  INFO 22244 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1747467407831_192.168.187.1_56753
+15:37:08:506  INFO 22244 --- [nacos-grpc-client-executor-14] c.a.n.c.remote.client.grpc.GrpcClient    : [1747467407831_192.168.187.1_56753]Ignore complete event,isRunning:false,isAbandon=false
+15:37:08:511  INFO 22244 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4c58212[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+15:37:08:515  INFO 22244 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15:37:08:525  INFO 22244 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15:37:08:526  INFO 22244 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xc06862ef, L:/192.168.187.1:56739 ! R:/192.168.187.128:8099]
+15:37:08:526  INFO 22244 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xc06862ef, L:/192.168.187.1:56739 ! R:/192.168.187.128:8099]
+15:37:08:526  INFO 22244 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xc06862ef, L:/192.168.187.1:56739 ! R:/192.168.187.128:8099]
+15:37:08:526  INFO 22244 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xc06862ef, L:/192.168.187.1:56739 ! R:/192.168.187.128:8099]
+15:37:08:526  INFO 22244 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc06862ef, L:/192.168.187.1:56739 ! R:/192.168.187.128:8099]) will closed
+15:37:08:526  INFO 22244 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc06862ef, L:/192.168.187.1:56739 ! R:/192.168.187.128:8099]) will closed
+15:37:08:529  INFO 22244 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xfe395c72, L:/192.168.187.1:56741 ! R:/192.168.187.128:8099]
+15:37:08:529  INFO 22244 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xfe395c72, L:/192.168.187.1:56741 ! R:/192.168.187.128:8099]
+15:37:08:529  INFO 22244 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xfe395c72, L:/192.168.187.1:56741 ! R:/192.168.187.128:8099]
+15:37:08:529  INFO 22244 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xfe395c72, L:/192.168.187.1:56741 ! R:/192.168.187.128:8099]
+15:37:08:529  INFO 22244 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xfe395c72, L:/192.168.187.1:56741 ! R:/192.168.187.128:8099]) will closed
+15:37:08:530  INFO 22244 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xfe395c72, L:/192.168.187.1:56741 ! R:/192.168.187.128:8099]) will closed
